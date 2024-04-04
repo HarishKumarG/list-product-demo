@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BookSky</title>
+</head>
+<body>
+    <div class="header">
+    <h1>BOOKSKY</h1>
+    </div>
+    <div class="list-index">
+        <div class="product-list">
+            <h2>Product 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit voluptates sint iusto? Dolorem sit repudiandae debitis consequuntur! Provident nam repellendus quo facere similique voluptatem maxime minima cumque, dolor corporis architecto doloribus ducimus id totam vitae quod dolorum voluptate laborum alias officiis sequi quasi earum autem adipisci. Pariatur quaerat labore aut numquam harum iure, laborum aliquid adipisci! Sed expedita nam dolore ullam ducimus nisi iste saepe recusandae corporis magnam, repudiandae maiores accusamus laboriosam ea impedit adipisci?</p>
+            <button id="deletelist">Delete</button>
+        </div>
+    </div>
+
+
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add Product</h2>
+        <form>
+            <input type="text" placeholder="Product Name" id="product-name">
+            <textarea name="description" id="product-description" placeholder="Enter product description"></textarea>
+            <button id="add-button-product">Add</button>
+            <button id="cancel-popup">Cancel</button>
+        </form>
+    </div>
+
+    <button class="add-button" id="add-book">+</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
